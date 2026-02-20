@@ -38,3 +38,13 @@
         </div>
         <div class="plune-row">
           <label class="plune-label">Capability bits (0–31)</label>
+          <input type="text" id="lp-cap-bits" class="plune-input plune-input-sm" value="31" placeholder="31" />
+        </div>
+        <div class="plune-row">
+          <label class="plune-label">Config hash (0x… or leave blank for zero)</label>
+          <input type="text" id="lp-config-hash" class="plune-input" placeholder="0x…" />
+        </div>
+        <button type="button" class="plune-btn plune-btn-primary" id="lp-enlist" disabled>Enlist agent</button>
+        <p class="plune-hint" id="lp-enlist-hint"></p>
+      </section>
+
